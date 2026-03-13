@@ -3,22 +3,19 @@ import axios from "axios";
 
 function DepartmentApiDemo() {
   const [data, setData] = useState([]);
-
   useEffect(() => {
     axios
       .get("https://dummy-json.mock.beeceptor.com/posts")
       .then((res) => {
-        setData(res.data); // API returns an array
+        setData(res.data); 
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
-
   return (
     <div className="page">
-      <h2>API Demo</h2>
-
+      <h2 style={{ color: "blue" }}>API Demo</h2>
       <table border="1">
         <thead>
           <tr>
@@ -29,7 +26,6 @@ function DepartmentApiDemo() {
             <th>Link</th>
           </tr>
         </thead>
-
         <tbody>
           {data.map((post) => (
             <tr key={post.id}>

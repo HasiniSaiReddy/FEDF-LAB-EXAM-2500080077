@@ -11,8 +11,8 @@ export default function Navbar() {
         <div>
             <nav className="nav">
                 <button><Link to="/department-home">Home</Link></button>
-                <button><Link to="/department-registration">Add Registration</Link></button>
-                <button><Link to="/department-users">View Users</Link></button>
+                <button><Link to="/department-registration">Add Department</Link></button>
+                <button><Link to="/department-users">View Department</Link></button>
                 <button><Link to="/api">API Demo</Link></button>
             </nav>
             <Routes>
