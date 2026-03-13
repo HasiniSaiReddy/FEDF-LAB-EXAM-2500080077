@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:#c63d3d;
+  color:white;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:16px;
+}
+
+.nav-links a:hover{
+  text-decoration:underline;
+}
+
+/* HOME PAGE */
+
+.home-container{
+  text-align:center;
+  margin-top:150px;
+}
+
+.home-container h1{
+  font-size:48px;
+  color:#0d1b2a;
+}
+
+.home-container p{
+  font-size:18px;
+  color:#333;
+  margin-top:15px;
+}
+
+/* FORM */
+
+.page{
+  text-align:center;
+  margin-top:80px;
+}
+
+.form{
+  width:320px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.form input{
+  padding:10px;
+  font-size:14px;
+}
+
+.form button{
+  padding:10px;
+  background:#3a86ff;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
